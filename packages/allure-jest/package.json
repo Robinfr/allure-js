@@ -34,6 +34,10 @@
     "./jsdom": {
       "import": "./dist/esm/jsdom.js",
       "require": "./dist/cjs/jsdom.js"
+    },
+    "./puppeteer":  {
+      "import": "./dist/esm/puppeteer.js",
+      "require": "./dist/cjs/puppeteer.js"
     }
   },
   "files": [
@@ -93,7 +97,8 @@
     "jest-circus": ">=24.8.0",
     "jest-cli": ">=24.8.0",
     "jest-environment-jsdom": ">=24.8.0",
-    "jest-environment-node": ">=24.8.0"
+    "jest-environment-node": ">=24.8.0",
+    "jest-environment-puppeteer": ">=10.0.0"
   },
   "peerDependenciesMeta": {
     "jest": {
